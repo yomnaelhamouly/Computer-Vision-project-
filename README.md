@@ -192,7 +192,7 @@ Computer-Vision-project-/
 |---|---|---|
 | 1 | 👩‍💼 **Salma** | **Project Manager** — Organized the team, designed the full pipeline architecture, and coordinated all stages of delivery |
 | 2 | 👩‍🔬 **Yomna** | **Data Collection & Splitting** — Sourced the GTSRB dataset, performed data cleaning, and executed the train/val/test split |
-| 3 | 👨‍💻 **Abdelrahman** | **Preprocessing** — Applied image preprocessing techniques including resizing, normalization strategy, and noise reduction (Gaussian blur + CLAHE) |
+| 3 | 👩‍🔬 **Maryam** | **Preprocessing** — Applied image preprocessing techniques including resizing, normalization strategy, and noise reduction (Gaussian blur + CLAHE) |
 | 4 | 👨‍🔭 **Mohamed Adel** | **Object Detection & Segmentation** — Implemented HSV-based object detection, generated bounding boxes, produced segmentation masks, and computed IoU scores |
 | 5 | 👨‍🔬 **Abdelrahman** | **Feature Engineering** — Extracted color histograms and HOG shape descriptors; assembled feature vectors for downstream classification |
 | 6 | 👩‍🤖 **Rawan** | **Model Training & Classification** — Trained SVM and CNN classifiers on extracted features and generated model predictions |
