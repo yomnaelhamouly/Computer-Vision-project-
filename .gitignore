@@ -1,0 +1,10 @@
+data/
+*.jpg
+*.jpeg
+*.png
+
+*.npy
+*.npz
+*.pkl
+*.joblib
+__pycache__/
