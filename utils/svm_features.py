@@ -17,7 +17,7 @@ from skimage.feature import hog
 
 SVM_INPUT_SIZE = (64, 64)
 
-# Identical to FeatureExtraction.ipynb (no transform_sqrt)
+# Identical to FeatureExtraction.ipynb 
 HOG_PARAMS_NOTEBOOK = dict(
     orientations=9,
     pixels_per_cell=(8, 8),

@@ -23,7 +23,7 @@ np.random.seed(42)
 
 
 import os
-data_path = r"D:\Python\CVproject\GTSRB\Train"
+data_path = r"D:\Projects\Computer-Vision-project-\Data\Raw\GTSRB\Train"
 
 classes = os.listdir(data_path)
 print("Number of classes:", len(classes))
@@ -46,9 +46,9 @@ print(df)
 
 #HERE to visualize the distribution of images across classes to identify any imbalances in the dataset 
 import matplotlib.pyplot as plt
-
+plt.figure(figsize=(15,6))
 plt.bar(df["class"], df["count"])
-plt.xticks(rotation=90)
+plt.xticks(rotation=45)
 plt.title("Images per Class")
 plt.show()
 
