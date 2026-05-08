@@ -751,7 +751,7 @@ elif pipeline == "Traffic Sign Detection (HSV + contours)":
 st.markdown("<br><hr class='cv-hr'>", unsafe_allow_html=True)
 st.markdown(
     "<p style='text-align:center;color:#8b949e;font-size:0.78rem'>"
-    "Traffic Sign Recognition · Computer Vision Graduation Project · "
+    "Traffic Sign Recognition · Computer Visio Project · "
     "Built with Streamlit · TensorFlow · scikit-learn · OpenCV"
     "</p>",
     unsafe_allow_html=True,

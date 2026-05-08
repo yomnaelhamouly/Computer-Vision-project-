@@ -10,7 +10,7 @@
 
 
 # =========================
-# ✅ IMPORTANT: SET SEED
+# SET SEED
 # =========================
 import random
 import numpy as np
@@ -20,7 +20,7 @@ np.random.seed(42)
 
 
 #HERE  to check number of classes should be 43  if less than 43 then there is a problem with the dataset and we need to re-download it and extract it again.
-#or we are working on a subset of the dataset which is not recommended for training a model.
+
 
 import os
 data_path = r"D:\Python\CVproject\GTSRB\Train"
@@ -134,7 +134,7 @@ source = data_path
 dest = "balanced_dataset"
 TARGET = 200
 
-# 🔥 FIX: delete old folder to avoid accumulation
+#  FIX: delete old folder to avoid accumulation
 if os.path.exists(dest):
     shutil.rmtree(dest)
 
@@ -221,7 +221,7 @@ for split in ["train","val","test"]:
 
 
 # =========================
-# CREATE CSV (ONLY ONE ✔️)
+# CREATE CSV 
 # =========================
 data = []
 
